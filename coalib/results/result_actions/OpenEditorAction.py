@@ -92,6 +92,11 @@ KNOWN_EDITORS = {
         'args': '--new-window',
         'gui': True
     },
+    'vsc': {
+        'file_arg_template': '{filename}:{line}:{column}',
+        'args': '--wait',
+        'gui': True
+    },
 }
 
 
