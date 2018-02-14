@@ -92,8 +92,8 @@ KNOWN_EDITORS = {
         'args': '--new-window',
         'gui': True
     },
-    'vscode': {
-        'file_arg_template': '{filename}:{line}:{column}',
+    'code': {
+        'file_arg_template': '{filename}',
         'args': '--wait',
         'gui': True
     },
